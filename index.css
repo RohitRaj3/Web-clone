@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh;
+    /* width: 100%; */
+    background-image: url(https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+
+#myDIV {
+    height:300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    column-width: 50px;
+    /* grid-template-rows: 70px auto; */
+  }
+  #myDIV div  {
+    /* height: 100%; */
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* text-align: center; */
+    padding: 20px 0;
+    /* font-size: 30px; */
+  }
+  #myDIV div img{
+    height: 80%;
+    width: 80%;
+  } 
+  #Education{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .add-text1{
+    flex: 1;
+    padding-right: 20px;
+    /* text-align: left; */
+
+  }
+  .add-img1{
+    flex: 1;
+    /* text-align: right; */
+    
+  }
+  .add-img1 img{
+    width: 40%;
+    height: 80%;
+  }
+
+  #readme-button{
+    display: block;
+    background-color: bisque;
+    border: 10px;
+  }
+
+  .text-after{
+        margin: 0px 0px 16px;
+        font-family: ApercuPro-Light,Source Sans Pro,Helvetica,sans-serif;
+        -moz-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        line-height: 26px;
+        text-align: left;
+        font-size: 15px;
+        letter-spacing: 0;
+}
